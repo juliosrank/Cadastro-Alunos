@@ -36,19 +36,6 @@ Este projeto tem como objetivo aprender e fixar conceitos fundamentais de Java c
 
 ---
 
-## Estrutura do Projeto
-
-src/main/java/com/julio/Cadastro/Alunos
-├── Controller -> Endpoints REST
-├── Exception -> Exceções personalizadas
-│ └── Handler -> Tratamento global de erros
-├── Model -> Classe de domínio (Aluno)
-├── Repository -> Simulação de banco de dados em memória
-└── Service -> Regras de negócio
-
-
----
-
 ##  Endpoints Principais
 
 - **GET /alunos** → Lista todos os alunos  
@@ -64,7 +51,7 @@ src/main/java/com/julio/Cadastro/Alunos
 
 Exemplo de resposta de erro padronizada:
 
--json
+```json
 {
   "timestamp": "2025-09-08T21:45:12.501",
   "status": 404,
